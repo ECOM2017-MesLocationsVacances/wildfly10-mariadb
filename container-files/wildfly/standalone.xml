@@ -144,7 +144,7 @@
                     </security>
                 </datasource>
                 <datasource jndi-name="java:jboss/datasources/RIM" pool-name="RIM" enabled="true" use-java-context="true">
-                    <connection-url>jdbc:mariadb://localhost:3306/test?useUnicode=yes&amp;amp;characterEncoding=UTF-8</connection-url>
+                    <connection-url>jdbc:mariadb://localhost:3306/mlvdb?useUnicode=yes&amp;amp;characterEncoding=UTF-8</connection-url>
                     <driver>org.mariadb</driver>
                     <pool>
                         <min-pool-size>10</min-pool-size>
